@@ -15,7 +15,10 @@
     "node": ">=0.8.0"
   },
   "dependencies": {
+    "codacy-coverage": "^1.0.3",
     "commander": "",
+    "jscoverage": "^0.5.9",
+    "mocha-lcov-reporter": "0.0.2",
     "uglify-js2": ""
   },
   "devDependencies": {
