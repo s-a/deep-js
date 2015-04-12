@@ -15,14 +15,15 @@
     "node": ">=0.8.0"
   },
   "dependencies": {
-    "uglify-js2": "",
-    "commander": ""
+    "commander": "",
+    "uglify-js2": ""
   },
   "devDependencies": {
-    "mocha": "",
-    "should": "",
     "grunt": "",
+    "grunt-bump": "",
+    "grunt-mocha-cov": "^0.4.0",
     "load-grunt-tasks": "",
-    "grunt-bump":""
+    "mocha": "",
+    "should": ""
   }
 }
