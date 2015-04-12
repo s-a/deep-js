@@ -18,7 +18,7 @@ before(function  () {
 	var filename = "test.js";
 	deep = new Deep(filename);
 	deep.parse();
-	deep.log(deep.definitions,4);
+	//deep.log(deep.definitions,4);
 });
 
 var constructorExists = function (name) {

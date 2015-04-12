@@ -353,10 +353,10 @@ var findInScopes = function (name, currentScope, type){
 Deep.prototype.findInScopes = findInScopes;
 
 /*
-*/
-var filename = "test.js";
-var deep = new Deep(filename);
-deep.parse();
+    var filename = "test.js";
+    var deep = new Deep(filename);
+    deep.parse();
 
-log(deep.definitions,6);
+    log(deep.definitions,6);
+*/
 module.exports = Deep;
