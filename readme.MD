@@ -10,7 +10,7 @@ work at progress
 
 ## Installation
 
- - ```npm install deep-js``` (not yet because this is at a raw alpha dev state)
+ - ```npm install deep-js```
 
 ## Custom Template
 todo..
