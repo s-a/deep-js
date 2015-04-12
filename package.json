@@ -15,6 +15,7 @@
     "node": ">=0.8.0"
   },
   "dependencies": {
+    "uglify-js2": "",
     "commander": ""
   },
   "devDependencies": {
