@@ -1,6 +1,8 @@
+/*
 var fs = require("fs");
 var assert = require("assert");
 var path = require('path'); 
+*/
 var should = require('should');
 
 var Deep = require("./../deep.js");

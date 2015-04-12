@@ -3,7 +3,7 @@
 [![NPM Version](http://img.shields.io/npm/v/deep-js.svg?style=flat-square)](https://www.npmjs.org/package/deep-js)
 [![Dependencies](https://img.shields.io/david/s-a/deep-js.svg)](#)
 [![Development Dependencies](https://img.shields.io/david/dev/s-a/deep-js.svg)](#)
-[![Codacy Badge](https://www.codacy.com/project/badge/2d8ee24ff09c4ef09854ef29a7ffca75)](https://www.codacy.com/public/stephanahlf/deep-js)
+[![Codacy Badge](https://www.codacy.com/project/badge/8aa74aa187654e2c9333fda941d9eae5)](https://www.codacy.com/app/stephanahlf/deep-js)
 
 ## About
 work at progress
