@@ -6,10 +6,11 @@
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/s-a/deep-js.git"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "cover" : "YOURPACKAGE_COVERAGE=1 ./node_modules/.bin/mocha test -R mocha-lcov-reporter | ./node_modules/codacy-coverage/bin/codacy-coverage.js"
   },
   "engines": {
     "node": ">=0.8.0"
