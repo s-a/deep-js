@@ -12,7 +12,6 @@ var coverageMode = fs.existsSync("lib-cov/index.js");
 if (coverageMode){
 	Deep = require("./../lib-cov/");
 } else {
-	console.log("coverage mode...", coverageMode);
 	Deep = require("./../lib/");
 }
 
@@ -31,6 +30,7 @@ var deep;
 before(function  () {
 	var filename = "test.js";
 	deep = new Deep(filename);
+	deep.log("coverage mode...", coverageMode);
 	deep.parse();
 	//deep.log(deep.definitions,4);
 });
@@ -45,7 +45,7 @@ var parameterExists = function (functionName, parameterName) {
 		it('should identify argument "' + parameterName + '" in method "' + functionName + '"', function(){
 			var parm = deep.get(functionName).parm(parameterName);
 			should.exist(parm);
-		parm.name.should.be.equal(parameterName);
+			parm.name.should.be.equal(parameterName);
 		});
 };
 
