@@ -4,6 +4,3 @@ node_js:
 before_script:
   - npm install -g mocha
   - npm install -g coveralls
-after_success:
-  - jscoverage lib lib-cov
-  - mocha -R mocha-lcov-reporter | ./node_modules/coveralls/bin/coveralls.js
