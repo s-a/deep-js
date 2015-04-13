@@ -10,8 +10,8 @@
   },
   "scripts": {
     "test": "mocha",
-    "cover-html" : "./node_modules/.bin/jscoverage lib lib-cov | mocha -R html-cov > coverage.html",
-    "coveralls" : "./node_modules/.bin/jscoverage lib lib-cov | ./node_modules/.bin/mocha -R mocha-lcov-reporter | ./node_modules/coveralls/bin/coveralls.js"
+    "cover-html" : "jscoverage lib lib-cov | mocha -R html-cov > coverage.html",
+    "coveralls" :  "jscoverage lib lib-cov | mocha -R mocha-lcov-reporter | ./node_modules/coveralls/bin/coveralls.js"
   },
   "engines": {
     "node": ">=0.8.0"
