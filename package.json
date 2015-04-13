@@ -3,7 +3,7 @@
   "preferGlobal": true,
   "name": "deep-js",
   "description": "A very simple way to documenting JavaScript code",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/s-a/deep-js.git"
@@ -17,7 +17,6 @@
     "node": ">=0.8.0"
   },
   "dependencies": {
-    "codacy-coverage": "^1.0.3",
     "commander": "",
     "jscoverage": "^0.5.9",
     "mocha-lcov-reporter": "0.0.2",
