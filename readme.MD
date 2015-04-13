@@ -1,9 +1,10 @@
 # deep-js
 [![Build Status](http://img.shields.io/travis/s-a/deep-js.svg?style=flat-square)](https://travis-ci.org/s-a/deep-js)
+[![Codacy Badge](https://www.codacy.com/project/badge/1ffcf7a0ed0341d8b21bb6c17655c013)](https://www.codacy.com/app/stephanahlf/deep-js)
 [![NPM Version](http://img.shields.io/npm/v/deep-js.svg?style=flat-square)](https://www.npmjs.org/package/deep-js)
 [![Dependencies](https://img.shields.io/david/s-a/deep-js.svg)](#)
 [![Development Dependencies](https://img.shields.io/david/dev/s-a/deep-js.svg)](#)
-[![Codacy Badge](https://www.codacy.com/project/badge/1ffcf7a0ed0341d8b21bb6c17655c013)](https://www.codacy.com/app/stephanahlf/deep-js)
+[![Coverage Status](https://coveralls.io/repos/s-a/deep-js/badge.svg)](https://coveralls.io/r/s-a/deep-js)
 
 ## About
 work at progress

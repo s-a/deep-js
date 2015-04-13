@@ -1,5 +1,5 @@
 language: node_js
 node_js:
   - "0.10"
-before_script:
-  - YOURPACKAGE_COVERAGE=1 ./node_modules/.bin/mocha test -R mocha-lcov-reporter | ./node_modules/codacy-coverage/bin/codacy-coverage.js
+after_success:
+  - npm run coveralls

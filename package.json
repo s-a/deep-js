@@ -10,7 +10,8 @@
   },
   "scripts": {
     "test": "mocha",
-    "cover" : "YOURPACKAGE_COVERAGE=1 ./node_modules/.bin/mocha test -R mocha-lcov-reporter | ./node_modules/codacy-coverage/bin/codacy-coverage.js"
+    "cover-html" : "./node_modules/.bin/jscoverage lib lib-cov | mocha -R html-cov > coverage.html",
+    "coveralls" : "./node_modules/.bin/jscoverage lib lib-cov | ./node_modules/.bin/mocha -R mocha-lcov-reporter | ./node_modules/coveralls/bin/coveralls.js"
   },
   "engines": {
     "node": ">=0.8.0"
@@ -23,6 +24,7 @@
     "uglify-js2": ""
   },
   "devDependencies": {
+    "coveralls": "^2.11.2",
     "grunt": "",
     "grunt-bump": "",
     "grunt-mocha-cov": "^0.4.0",

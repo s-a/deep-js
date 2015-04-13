@@ -5,7 +5,9 @@ var path = require('path');
 */
 var should = require('should');
 
-var Deep = require("./../deep.js");
+
+var Deep = require("./../lib/deep.js");
+var Deep = require("./../lib-cov/deep.js");
 
 /*var program = require('commander');
 var fs = require('fs');
