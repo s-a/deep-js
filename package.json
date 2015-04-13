@@ -10,7 +10,7 @@
   },
   "scripts": {
     "test": "mocha",
-    "cover-html" : "jscoverage lib lib-cov | mocha -R html-cov > coverage.html",
+    "cover-html" : "jscoverage lib lib-cov | mocha -R html-cov > coverage.html"
   },
   "engines": {
     "node": ">=0.8.0"
