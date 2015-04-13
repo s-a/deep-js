@@ -1,14 +1,26 @@
-/*
 var fs = require("fs");
+/*
 var assert = require("assert");
 var path = require('path'); 
 */
 var should = require('should');
 
 
-var Deep = require("./../lib/deep.js");
-var Deep = require("./../lib-cov/deep.js");
+var Deep;
+var coverageMode = fs.existsSync("lib-cov/index.js");
 
+if (coverageMode){
+	Deep = require("./../lib-cov/");
+} else {
+	console.log("coverage mode...", coverageMode);
+	Deep = require("./../lib/");
+}
+
+/*
+if (process.env.TRAVIS && process.env.NODE_ENV === "test" && process.env.COVERAGE === "1" ){
+} else {
+}
+*/
 /*var program = require('commander');
 var fs = require('fs');
 var moment = require('moment');
