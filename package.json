@@ -2,7 +2,7 @@
   "author": "Stephan Ahlf",
   "preferGlobal": true,
   "name": "deep-js",
-  "description": "A very simple way to documenting JavaScript code",
+  "description": "Documenting JavaScript code",
   "version": "0.0.2",
   "repository": {
     "type": "git",
@@ -23,10 +23,6 @@
   },
   "devDependencies": {
     "coveralls": "^2.11.2",
-    "grunt": "",
-    "grunt-bump": "",
-    "grunt-mocha-cov": "^0.4.0",
-    "load-grunt-tasks": "",
     "mocha": "",
     "should": ""
   }
