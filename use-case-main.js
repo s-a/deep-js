@@ -13,8 +13,8 @@ var test = "xxx";
 
 var Animal=function(/* String, asd asdasd asdasd type, name */  /*>>>>>>>>>>>>>>>>*/ type  /* String */ /* Fixme : test */) {
 	var m = type + "test";
-	this.say = function(text /* String */) {
-		return "test" + m + text;
+	this.say = function(text /* String */, velocity /* Integer */) {
+		return "test" + m + text + velocity;
 	};
 	this.type = type;
 	return this;
@@ -74,13 +74,13 @@ scream
 
 Cow.prototype.scream = scream;
 
-var globalScopeMehode = function  () {
+var globalScopeMehode = function  (parm1 /* Boolean */) {
 	return "global scope";
 }
 
 
-var ScopeTest = function  (argument) {
-	var TestingGlobalScope = function(argument) {
+var ScopeTest = function  (parm1 /* Boolean */) {
+	var TestingGlobalScope = function(parm1 /* Boolean */) {
 		this.foo = globalScopeMehode;
 		return this;
 	}

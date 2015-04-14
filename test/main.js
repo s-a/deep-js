@@ -68,6 +68,15 @@ var parameterExistsAndIsTypeOf = function (functionName, parameterName, paramete
 	});
 };
 
+var nestedMethodParameterExistsAndIsTypeOf = function (functionName, nestedMethodName, parameterName, parameterType) {
+	it('should identify datatype of argument "' + parameterName + '" in method "' + functionName + "." + nestedMethodName, function(){
+		var method = deep.get(functionName).method(nestedMethodName);
+		var parm = method.parm(parameterName);
+		should.exist(parm);
+		parm.type.should.be.equal(parameterType);
+	});
+};
+
 var extendsInstance = function(functionName, baseFunctionName ) {
 	it('should identify that "' + functionName + '" extends "' + baseFunctionName + '"', function(){
 		deep.get(functionName).extends.name.should.be.equal(baseFunctionName);
@@ -86,27 +95,32 @@ describe('parse javascript code', function(){
 		deep.definitions.length.should.be.above(0);
 	});
 
-	constructorExists           ("Monster");
-	parameterExists  			      ("Monster", "monsterType");
-	parameterExistsAndIsTypeOf 	("Monster", "monsterType", "String");
+	constructorExists           			("Monster");
+	parameterExists  						("Monster", "monsterType");
+	parameterExistsAndIsTypeOf 				("Monster", "monsterType", "String");
+	methodeExists     						("Monster", "say");
+	nestedMethodParameterExistsAndIsTypeOf 	("Monster", "say", "text", "String");
 
-	constructorExists           ("Animal");
-	parameterExists             ("Animal", "type");
-	parameterExistsAndIsTypeOf  ("Animal", "type", "String");
+	constructorExists           			("Animal");
+	parameterExists             			("Animal", "type");
+	parameterExistsAndIsTypeOf  			("Animal", "type", "String");
+	methodeExists     						("Animal", "say");
+	nestedMethodParameterExistsAndIsTypeOf 	("Animal", "say", "text", "String");
+	nestedMethodParameterExistsAndIsTypeOf 	("Animal", "say", "velocity", "Integer");
 
 	constructorExists			("Dog");
 	extendsInstance				("Dog", "Animal");
-	constructorMethode    ("Dog", "Animal");
+	constructorMethode    		("Dog", "Animal");
 
-	constructorExists     ("Cow");
-	extendsInstance       ("Cow", "Monster");
-	constructorMethode    ("Cow", "Mutant");
-	methodeExists     		("Cow", "scream");
+	constructorExists     		("Cow");
+	extendsInstance       		("Cow", "Monster");
+	constructorMethode    		("Cow", "Mutant");
+	methodeExists     			("Cow", "scream");
 
 
-	constructorExists     ("Cat");
-	extendsInstance       ("Cat", "Animal");
-	constructorMethode    ("Cat", "Animal");
+	constructorExists     		("Cat");
+	extendsInstance       		("Cat", "Animal");
+	constructorMethode    		("Cat", "Animal");
 	constructorExists     		("Cat.miau");
 
 	it('should identify each method definition by name', function(){
