@@ -74,6 +74,19 @@ scream
 
 Cow.prototype.scream = scream;
 
+var globalScopeMehode = function  () {
+	return "global scope";
+}
+
+
+var ScopeTest = function  (argument) {
+	var TestingGlobalScope = function(argument) {
+		this.foo = globalScopeMehode;
+		return this;
+	}
+	this.bar = TestingGlobalScope;
+	return this;
+}
 
 
 console.log(cat instanceof Cat);
