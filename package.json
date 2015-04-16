@@ -1,7 +1,11 @@
 {
+  "name": "deep-js",
   "author": "Stephan Ahlf",
   "preferGlobal": true,
-  "name": "deep-js",
+  "main" : "./lib/index.js",
+  "bin": {
+    "deep": "./lib/index.js"
+  },
   "description": "Documenting JavaScript code",
   "version": "0.0.2",
   "repository": {

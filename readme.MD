@@ -11,7 +11,7 @@ work at progress
 
 ## Installation
 
- - ```npm install deep-js```
+ - ```npm install -g deep-js```
 
 ## Custom Template
 todo..
