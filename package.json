@@ -2,7 +2,7 @@
   "name": "deep-js",
   "author": "Stephan Ahlf",
   "preferGlobal": true,
-  "main" : "./lib/index.js",
+  "main": "./lib/index.js",
   "bin": {
     "deep": "./lib/index.js"
   },
@@ -14,16 +14,17 @@
   },
   "scripts": {
     "test": "mocha",
-    "cover-html" : "jscoverage lib lib-cov && mocha -R html-cov > coverage.html && rm lib-cov/*.*"
+    "cover-html": "jscoverage lib lib-cov && mocha -R html-cov > coverage.html && rm lib-cov/*.*"
   },
   "engines": {
     "node": ">=0.8.0"
   },
   "dependencies": {
-    "commander": "",
+    "commander": "^2.8.0",
+    "ejs": "^2.3.1",
     "jscoverage": "^0.5.9",
     "mocha-lcov-reporter": "0.0.2",
-    "uglify-js2": ""
+    "uglify-js2": "^2.1.11"
   },
   "devDependencies": {
     "coveralls": "^2.11.2",

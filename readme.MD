@@ -8,19 +8,21 @@
 
 ## About
 A commandline app documenting Javascript  
-
-// work at progress ( feel free to contribute! )
+// work @ progress ( feel free to contribute! )
 
 ## Installation
 
  - ```npm install -g deep-js```
 
-## Usage Options:
+## Options
 
   -h, --help            output usage information
   -V, --version         output the version number
   -f, --file <Sting>    JavaScript file to parse
   -o, --output <Sting>  Documentation output file
+
+## Example
+```deep --file=use-case-main.js --output=output/test.MD```
 
 ## Develpment setup
   - ```npm install -g mocha```
