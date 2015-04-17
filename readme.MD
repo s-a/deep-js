@@ -19,11 +19,12 @@ A commandline app documenting Javascript
  - h, --help            output usage information
  - V, --version         output the version number
  - f, --file <Sting>    JavaScript file to parse
+ - d, --describe <items> comma seperated list of JavaScript names that should be described
  - o, --output <Sting>  Documentation output file
 
 ## Examples
- - ```deep --file=use-case-main.js --output=lib-doc/use-case-main.js.MD```
- - ```deep --file=lib/deep.js --output=lib-doc/api-deep-js.MD``` writes [/lib-out/api-deep-js.MD](/lib-out/api-deep-js.MD)
+ - ```deep --file=use-case-main.js --describe=Animal,Cow --output=lib-doc/use-case-main.js.MD```
+ - ```deep --file=lib/deep.js --describe=Deep --output=lib-doc/api-deep-js.MD``` writes [/lib-doc/api-deep-js.MD](/lib-doc/api-deep-js.MD)
 
 ## Develpment setup
   - ```npm install -g mocha```

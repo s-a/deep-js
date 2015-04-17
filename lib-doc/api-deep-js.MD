@@ -1,46 +1,252 @@
 
-# log
+# Method: ```log```
+	
+		Arguments:
+		
+		```obj``` ```Object```
+		
+		```depth``` ```Object```
+		
+	
 
-# getComments
+	
 
-# space
+# Method: ```getComments```
+	
+		Arguments:
+		
+		```src``` ```Object```
+		
+	
 
-# replaceComment
+	
 
-# parseComments
+# Method: ```space```
+	
+		Arguments:
+		
+		```str``` ```Object```
+		
+	
 
-# getCommentNextTo
+	
 
-# parseMethodParms
+# Method: ```replaceComment```
+	
+		Arguments:
+		
+		```methodSourceCode``` ```Object```
+		
+		```comment``` ```Object```
+		
+	
 
-# extractMethodeParms
+	
 
-# getMethodParameter
+# Method: ```parseComments```
+	
+		Arguments:
+		
+		```methodSourceCode``` ```Object```
+		
+	
 
-# getMethod
+	
 
-# getProperty
+# Method: ```getCommentNextTo```
+	
+		Arguments:
+		
+		```comments``` ```Object```
+		
+		```position``` ```Object```
+		
+	
 
-# extractMethodeInfos
+	
 
-# Deep
+# Method: ```parseMethodParms```
+	
+		Arguments:
+		
+		```rawMethodSourceCode``` ```Object```
+		
+		```argnames``` ```Object```
+		
+	
 
-# Deep.prototype.deepWalker
+	
 
-# return
+# Method: ```extractMethodeParms```
+	
+		Arguments:
+		
+		```code``` ```Object```
+		
+		```node``` ```Object```
+		
+	
 
-# addFunction
+	
 
-# Deep.prototype.walker
+# Method: ```getMethodParameter```
+	
+		Arguments:
+		
+		```name``` ```Object```
+		
+	
 
-# Deep.prototype.getAssignedDeclarationNode
+	
 
-# Deep.prototype.getDeclarationFromNode
+# Method: ```getMethod```
+	
+		Arguments:
+		
+		```name``` ```Object```
+		
+	
 
-# Deep.prototype.get
+	
 
-# Deep.prototype.each
+# Method: ```getProperty```
+	
+		Arguments:
+		
+		```name``` ```Object```
+		
+	
 
-# Deep.prototype.getParsedNode
+	
 
-# findInScopes
+# Method: ```extractMethodeInfos```
+	
+		Arguments:
+		
+		```code``` ```Object```
+		
+		```node``` ```Object```
+		
+	
+
+	
+
+# Method: ```Deep```
+	
+		Arguments:
+		
+		```filename``` ```Object```
+		
+	
+
+	
+		Methods:
+		
+		```parse```
+			
+		
+		```log```
+			
+				Arguments:
+				
+				```obj``` ```Object```
+				
+				```depth``` ```Object```
+				
+			
+		
+		```findInScopes```
+			
+				Arguments:
+				
+				```name``` ```Object```
+				
+				```currentScope``` ```Object```
+				
+				```type``` ```Object```
+				
+			
+		
+	
+
+# Method: ```Deep.prototype.deepWalker```
+	
+
+	
+
+
+# Method: ```addFunction```
+	
+
+	
+
+# Method: ```Deep.prototype.walker```
+	
+
+	
+
+# Method: ```Deep.prototype.getAssignedDeclarationNode```
+	
+		Arguments:
+		
+		```expression``` ```Object```
+		
+	
+
+	
+
+# Method: ```Deep.prototype.getDeclarationFromNode```
+	
+		Arguments:
+		
+		```name``` ```Object```
+		
+		```scope``` ```Object```
+		
+	
+
+	
+
+# Method: ```Deep.prototype.get```
+	
+		Arguments:
+		
+		```name``` ```Object```
+		
+	
+
+	
+
+# Method: ```Deep.prototype.each```
+	
+		Arguments:
+		
+		```iterator``` ```Object```
+		
+	
+
+	
+
+# Method: ```Deep.prototype.getParsedNode```
+	
+		Arguments:
+		
+		```offset``` ```Object```
+		
+	
+
+	
+
+# Method: ```findInScopes```
+	
+		Arguments:
+		
+		```name``` ```Object```
+		
+		```currentScope``` ```Object```
+		
+		```type``` ```Object```
+		
+	
+
+	
