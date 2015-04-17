@@ -14,7 +14,9 @@
   },
   "scripts": {
     "test": "mocha",
-    "cover-html": "jscoverage lib lib-cov && mocha -R html-cov > coverage.html && rm lib-cov/*.*"
+    "cover-html": "jscoverage lib lib-cov && mocha -R html-cov > coverage.html && rm lib-cov/*.*",
+    "docs-test": "node ./lib/index.js --file=use-case-main.js --output=lib-doc/use-case-main.js.MD",
+    "docs": "node ./lib/index.js --file=lib/deep.js --output=lib-doc/use-case-main.js.MD"
   },
   "engines": {
     "node": ">=0.8.0"

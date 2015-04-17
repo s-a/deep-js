@@ -22,7 +22,7 @@ A commandline app documenting Javascript
   -o, --output <Sting>  Documentation output file
 
 ## Example
-```deep --file=use-case-main.js --output=output/test.MD```
+```deep --file=use-case-main.js --output=lib-doc/use-case-main.js.MD```
 
 ## Develpment setup
   - ```npm install -g mocha```
