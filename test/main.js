@@ -12,9 +12,9 @@ var coverageMode = fs.existsSync("lib-cov/index.js");
 var filename = "use-case-main.js";
 
 if (coverageMode){
-	Deep = require("./../lib-cov/");
+	Deep = require("./../lib-cov/deep.js");
 } else {
-	Deep = require("./../lib/");
+	Deep = require("./../lib/deep.js");
 }
 
 deep = new Deep(filename);

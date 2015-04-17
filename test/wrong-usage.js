@@ -5,9 +5,9 @@ var Deep;
 var coverageMode = fs.existsSync("lib-cov/index.js");
 
 if (coverageMode){
-	Deep = require("./../lib-cov/");
+	Deep = require("./../lib-cov/deep.js");
 } else {
-	Deep = require("./../lib/");
+	Deep = require("./../lib/deep.js");
 }
 
 var deep;
