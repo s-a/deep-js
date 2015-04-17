@@ -23,7 +23,7 @@ A commandline app documenting Javascript
  - o, --output <Sting>  Documentation output file
 
 ## Examples
- - ```deep --file=use-case-main.js --describe=Animal,Cow --output=lib-doc/use-case-main.js.MD```
+ - ```deep --file=use-case-main.js --describe=Animal,Cow --output=lib-doc/use-case-main.js.MD``` writes [/lib-doc/use-case-main.js.MD](/lib-doc/use-case-main.js.MD)
  - ```deep --file=lib/deep.js --describe=Deep --output=lib-doc/api-deep-js.MD``` writes [/lib-doc/api-deep-js.MD](/lib-doc/api-deep-js.MD)
 
 ## Develpment setup
