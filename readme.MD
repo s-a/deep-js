@@ -21,8 +21,9 @@ A commandline app documenting Javascript
   -f, --file <Sting>    JavaScript file to parse
   -o, --output <Sting>  Documentation output file
 
-## Example
+## Examples
 ```deep --file=use-case-main.js --output=lib-doc/use-case-main.js.MD```
+```deep --file=lib/deep.js --output=lib-doc/api-deep-js.MD``` writes [/lib-out/api-deep-js.MD](/lib-out/api-deep-js.MD)
 
 ## Develpment setup
   - ```npm install -g mocha```
