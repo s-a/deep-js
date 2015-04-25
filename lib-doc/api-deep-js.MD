@@ -1,252 +1,1 @@
-
-# Method: ```log```
-	
-		Arguments:
-		
-		```obj``` ```Object```
-		
-		```depth``` ```Object```
-		
-	
-
-	
-
-# Method: ```getComments```
-	
-		Arguments:
-		
-		```src``` ```Object```
-		
-	
-
-	
-
-# Method: ```space```
-	
-		Arguments:
-		
-		```str``` ```Object```
-		
-	
-
-	
-
-# Method: ```replaceComment```
-	
-		Arguments:
-		
-		```methodSourceCode``` ```Object```
-		
-		```comment``` ```Object```
-		
-	
-
-	
-
-# Method: ```parseComments```
-	
-		Arguments:
-		
-		```methodSourceCode``` ```Object```
-		
-	
-
-	
-
-# Method: ```getCommentNextTo```
-	
-		Arguments:
-		
-		```comments``` ```Object```
-		
-		```position``` ```Object```
-		
-	
-
-	
-
-# Method: ```parseMethodParms```
-	
-		Arguments:
-		
-		```rawMethodSourceCode``` ```Object```
-		
-		```argnames``` ```Object```
-		
-	
-
-	
-
-# Method: ```extractMethodeParms```
-	
-		Arguments:
-		
-		```code``` ```Object```
-		
-		```node``` ```Object```
-		
-	
-
-	
-
-# Method: ```getMethodParameter```
-	
-		Arguments:
-		
-		```name``` ```Object```
-		
-	
-
-	
-
-# Method: ```getMethod```
-	
-		Arguments:
-		
-		```name``` ```Object```
-		
-	
-
-	
-
-# Method: ```getProperty```
-	
-		Arguments:
-		
-		```name``` ```Object```
-		
-	
-
-	
-
-# Method: ```extractMethodeInfos```
-	
-		Arguments:
-		
-		```code``` ```Object```
-		
-		```node``` ```Object```
-		
-	
-
-	
-
-# Method: ```Deep```
-	
-		Arguments:
-		
-		```filename``` ```Object```
-		
-	
-
-	
-		Methods:
-		
-		```parse```
-			
-		
-		```log```
-			
-				Arguments:
-				
-				```obj``` ```Object```
-				
-				```depth``` ```Object```
-				
-			
-		
-		```findInScopes```
-			
-				Arguments:
-				
-				```name``` ```Object```
-				
-				```currentScope``` ```Object```
-				
-				```type``` ```Object```
-				
-			
-		
-	
-
-# Method: ```Deep.prototype.deepWalker```
-	
-
-	
-
-
-# Method: ```addFunction```
-	
-
-	
-
-# Method: ```Deep.prototype.walker```
-	
-
-	
-
-# Method: ```Deep.prototype.getAssignedDeclarationNode```
-	
-		Arguments:
-		
-		```expression``` ```Object```
-		
-	
-
-	
-
-# Method: ```Deep.prototype.getDeclarationFromNode```
-	
-		Arguments:
-		
-		```name``` ```Object```
-		
-		```scope``` ```Object```
-		
-	
-
-	
-
-# Method: ```Deep.prototype.get```
-	
-		Arguments:
-		
-		```name``` ```Object```
-		
-	
-
-	
-
-# Method: ```Deep.prototype.each```
-	
-		Arguments:
-		
-		```iterator``` ```Object```
-		
-	
-
-	
-
-# Method: ```Deep.prototype.getParsedNode```
-	
-		Arguments:
-		
-		```offset``` ```Object```
-		
-	
-
-	
-
-# Method: ```findInScopes```
-	
-		Arguments:
-		
-		```name``` ```Object```
-		
-		```currentScope``` ```Object```
-		
-		```type``` ```Object```
-		
-	
-
-	
+## ```log```   Arguments:  ***obj*** ```Object```  ***depth*** ```Object```  ## ```getComments```   Arguments:  ***src*** ```Object```  ## ```space```   Arguments:  ***str*** ```Object```  ## ```replaceComment```   Arguments:  ***methodSourceCode*** ```Object```  ***comment*** ```Object```  ## ```parseComments```   Arguments:  ***methodSourceCode*** ```Object```  ## ```getCommentNextTo```   Arguments:  ***comments*** ```Object```  ***position*** ```Object```  ## ```parseMethodParms```   Arguments:  ***rawMethodSourceCode*** ```Object```  ***argnames*** ```Object```  ## ```extractMethodeParms```   Arguments:  ***code*** ```Object```  ***node*** ```Object```  ## ```getMethodParameter```   Arguments:  ***name*** ```Object```  ## ```getMethod```   Arguments:  ***name*** ```Object```  ## ```getProperty```   Arguments:  ***name*** ```Object```  ## ```extractMethodeInfos```   Arguments:  ***code*** ```Object```  ***node*** ```Object```  ## ```Deep```   Arguments:  ***filename*** ```Object```  ### Deep.parse()  ### Deep.log(***obj*** ```Object```  ***depth*** ```Object```  )  ### Deep.findInScopes(***name*** ```Object```  ***currentScope*** ```Object```  ***type*** ```Object```  )  ## ```Deep.prototype.deepWalker```   ## ```return```   Arguments:  ***node*** ```Object```  ## ```addFunction```   ## ```Deep.prototype.walker```   ## ```Deep.prototype.getAssignedDeclarationNode```   Arguments:  ***expression*** ```Object```  ## ```Deep.prototype.getDeclarationFromNode```   Arguments:  ***name*** ```Object```  ***scope*** ```Object```  ## ```Deep.prototype.get```   Arguments:  ***name*** ```Object```  ## ```Deep.prototype.each```   Arguments:  ***iterator*** ```Object```  ## ```Deep.prototype.getParsedNode```   Arguments:  ***offset*** ```Object```  ## ```findInScopes```   Arguments:  ***name*** ```Object```  ***currentScope*** ```Object```  ***type*** ```Object```  

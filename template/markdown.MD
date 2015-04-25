@@ -1,22 +1,22 @@
 <% definitions.forEach(function(definition){ %>
-# Method: ```<%= definition.name %>```
+## ```<%= definition.name %>``` <% if (definition.extends) { %>Extends (<%= definition.extends.name %>)[#<%= definition.extends.name %>] <% } %><% if (definition.construct) { %>Contructor (<%= definition.construct.name %>)[#<%= definition.construct.name %>] <% } %>  
+
+
 	<% if (definition.parms.length > 0) { %>
-		Arguments:
+		Arguments:  
 		<% definition.parms.forEach(function(parm){ %>
-		```<%= parm.name %>``` ```<%= parm.type %>```
+		***<%= parm.name %>*** ```<%= parm.type %>```  
 		<% }) %>
 	<% } %>
 
 	<% if (definition.methods.length > 0) { %>
-		Methods:
 		<% definition.methods.forEach(function(method){ %>
-		```<%= method.name %>```
+		### <%= definition.name %>.<%= method.name %>(
 			<% if (method.parms.length > 0) { %>
-				Arguments:
 				<% method.parms.forEach(function(parm){ %>
-				```<%= parm.name %>``` ```<%= parm.type %>```
+					***<%= parm.name %>*** ```<%= parm.type %>```  
 				<% }) %>
-			<% } %>
+			<% } %>)  
 		<% }) %>
 	<% } %>
 <% }) %>

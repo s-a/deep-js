@@ -1,115 +1,1 @@
-
-# Method: ```Animal```
-	
-		Arguments:
-		
-		```type``` ```String```
-		
-	
-
-	
-		Methods:
-		
-		```say```
-			
-				Arguments:
-				
-				```text``` ```String```
-				
-				```velocity``` ```Integer```
-				
-			
-		
-	
-
-# Method: ```Cat```
-	
-
-	
-
-# Method: ```Dog```
-	
-
-	
-
-# Method: ```Cow```
-	
-
-	
-		Methods:
-		
-		```scream```
-			
-				Arguments:
-				
-				```roar``` ```Object```
-				
-			
-		
-	
-
-# Method: ```Monster```
-	
-		Arguments:
-		
-		```monsterType``` ```String```
-		
-	
-
-	
-		Methods:
-		
-		```say```
-			
-				Arguments:
-				
-				```text``` ```String```
-				
-			
-		
-	
-
-# Method: ```Mutant```
-	
-
-	
-
-# Method: ```Cat.miau```
-	
-		Arguments:
-		
-		```length``` ```Integer```
-		
-	
-
-	
-
-# Method: ```globalScopeMehode```
-	
-		Arguments:
-		
-		```parm1``` ```Boolean```
-		
-	
-
-	
-
-# Method: ```ScopeTest```
-	
-		Arguments:
-		
-		```parm1``` ```Boolean```
-		
-	
-
-	
-
-# Method: ```TestingGlobalScope```
-	
-		Arguments:
-		
-		```parm1``` ```Boolean```
-		
-	
-
-	
+## ```Animal```   Arguments:  ***type*** ```String```  ### Animal.say(***text*** ```String```  ***velocity*** ```Integer```  )  ## ```Cat``` Extends (Animal)[#Animal] Contructor (Animal)[#Animal]   ## ```Dog``` Extends (Animal)[#Animal] Contructor (Animal)[#Animal]   ## ```Cow``` Extends (Monster)[#Monster] Contructor (Mutant)[#Mutant]   ### Cow.scream(***roar*** ```Object```  )  ## ```Monster```   Arguments:  ***monsterType*** ```String```  ### Monster.say(***text*** ```String```  )  ## ```Mutant```   ## ```Cat.miau```   Arguments:  ***length*** ```Integer```  ## ```globalScopeMehode```   Arguments:  ***parm1*** ```Boolean```  ## ```ScopeTest```   Arguments:  ***parm1*** ```Boolean```  ## ```TestingGlobalScope```   Arguments:  ***parm1*** ```Boolean```  
