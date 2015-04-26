@@ -16,7 +16,7 @@
 
 
 
-### Animal.say()
+### ```Animal.say()```
  
  
 > ***text*** ```String```  
@@ -52,7 +52,7 @@
 
 
 
-### Cow.scream()
+### ```Cow.scream()```
  
  
 > ***roar*** ```Object```  
@@ -71,7 +71,7 @@
 
 
 
-### Monster.say()
+### ```Monster.say()```
  
  
 > ***text*** ```String```  
