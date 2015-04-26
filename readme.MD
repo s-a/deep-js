@@ -8,7 +8,15 @@
 
 ## About
 A commandline app documenting Javascript  
-// work @ progress ( feel free to contribute! )
+// work is heavy @ progress ( feel free to contribute! )
+
+
+## Todo
+ - well structured markdown output
+ - good readable markdown template
+ - filter and order output for rendering
+ - pipe multiple JavaScript files for document output
+ - resolve this within functions
 
 ## Installation
 
