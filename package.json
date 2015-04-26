@@ -23,12 +23,14 @@
   },
   "dependencies": {
     "commander": "^2.8.0",
-    "ejs": "^2.3.1",
-    "jscoverage": "^0.5.9",
-    "mocha-lcov-reporter": "0.0.2",
     "uglify-js2": "^2.1.11"
   },
   "devDependencies": {
+    "ejs": "^2.3.1",
+    "jscoverage": "^0.5.9",
+    "marked": "^0.3.3",
+    "mocha-lcov-reporter": "0.0.2",
+    "express": "^4.12.3",
     "coveralls": "^2.11.2",
     "mocha": "",
     "should": ""

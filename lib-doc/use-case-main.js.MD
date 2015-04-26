@@ -1,141 +1,133 @@
 
-## ```Animal```   
-
+## ```Animal``` 
+
 
  > The Animal base class.
 
 
 
 
+> Arguments:  
 
-Arguments:  
+>> ***type*** ```String```
 
-***type*** ```String```  
 
 
 
 
 
-### Animal.say(
-  ***text*** ```String```   ***velocity*** ```Integer```   
-)  
+### Animal.say()
+ 
+ 
+> ***text*** ```String```  
+ 
+> ***velocity*** ```Integer```  
+ 
+## ```Cat``` 
+Extends [Animal](use-case-main.js.MD#animal)
+
+ Contructor [Animal](use-case-main.js.MD#animal)
 
 
 
-## ```Cat``` Extends [Animal](use-case-main.js.MD#animal) Contructor [Animal](use-case-main.js.MD#animal)   
 
+
+## ```Dog``` 
+Extends [Animal](use-case-main.js.MD#animal)
+
+ Contructor [Animal](use-case-main.js.MD#animal)
 
 
 
 
+
+## ```Cow``` 
+Extends [Monster](use-case-main.js.MD#monster)
+
+ Contructor [Mutant](use-case-main.js.MD#mutant)
 
 
 
-## ```Dog``` Extends [Animal](use-case-main.js.MD#animal) Contructor [Animal](use-case-main.js.MD#animal)   
 
 
 
 
+### Cow.scream()
+ 
+ 
+> ***roar*** ```Object```  
+ 
+## ```Monster``` 
+
 
 
 
+> Arguments:  
 
-## ```Cow``` Extends [Monster](use-case-main.js.MD#monster) Contructor [Mutant](use-case-main.js.MD#mutant)   
+>> ***monsterType*** ```String```
 
 
 
 
 
 
+### Monster.say()
+ 
+ 
+> ***text*** ```String```  
+ 
+## ```Mutant``` 
+
 
 
-### Cow.scream(
-  ***roar*** ```Object```   
-)  
 
 
+
+## ```Cat.miau``` 
+
 
-## ```Monster```   
 
 
+> Arguments:  
 
+>> ***length*** ```Integer```
 
 
-Arguments:  
 
-***monsterType*** ```String```  
+
+## ```globalScopeMehode``` 
+
 
 
 
+> Arguments:  
 
+>> ***parm1*** ```Boolean```
 
-### Monster.say(
-  ***text*** ```String```   
-)  
 
 
+
+## ```ScopeTest``` 
+
 
-## ```Mutant```   
 
 
+> Arguments:  
 
+>> ***parm1*** ```Boolean```
 
 
 
+
+## ```TestingGlobalScope``` 
+
 
 
-## ```Cat.miau```   
 
+> Arguments:  
 
+>> ***parm1*** ```Boolean```
 
 
 
-Arguments:  
-
-***length*** ```Integer```  
-
-
-
-
-
-## ```globalScopeMehode```   
-
-
-
-
-
-Arguments:  
-
-***parm1*** ```Boolean```  
-
-
-
-
-
-## ```ScopeTest```   
-
-
-
-
-
-Arguments:  
-
-***parm1*** ```Boolean```  
-
-
-
-
-
-## ```TestingGlobalScope```   
-
-
-
-
-
-Arguments:  
-
-***parm1*** ```Boolean```  
-
-
-
-
+
