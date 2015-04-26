@@ -16,6 +16,7 @@ A commandline app documenting Javascript
  - good readable markdown template
  - filter and order output for rendering
  - pipe multiple JavaScript files for document output
+ - identify and order namespaces
  - resolve this within functions
 
 ## Installation
