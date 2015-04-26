@@ -16,11 +16,8 @@
 	<% if (definition.methods.length > 0) { %>
 		<% definition.methods.forEach(function(method){ %>
 		### <%= definition.name %>.<%= method.name %>(
-			<% if (method.parms.length > 0) { %>
-				<% method.parms.forEach(function(parm){ %>
-					***<%= parm.name %>*** ```<%= parm.type %>```  
-				<% }) %>
-			<% } %>)  
+		<% if (method.parms.length > 0) { %> <% method.parms.forEach(function(parm){ %> ***<%= parm.name %>*** ```<%= parm.type %>```  <% }) %> <% } %>
+		)  
 		<% }) %>
 	<% } %>
 <% }) %>
