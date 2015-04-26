@@ -1,5 +1,5 @@
-<% definitions.forEach(function(definition){ %>
-## ```<%= definition.name %>``` <% if (definition.extends) { %>Extends (<%= definition.extends.name %>)[#<%= definition.extends.name %>] <% } %><% if (definition.construct) { %>Contructor (<%= definition.construct.name %>)[#<%= definition.construct.name %>] <% } %>  
+<% deep.definitions.forEach(function(definition){ %>
+## ```<%= definition.name %>``` <% if (definition.extends) { %>Extends [<%= definition.extends.name %>](<%= deep.outputFilename %>#<%= definition.extends.name %>) <% } %><% if (definition.construct) { %>Contructor [<%= definition.construct.name %>](<%= deep.outputFilename %>#<%= definition.construct.name %>) <% } %>  
 
 
 	<% if (definition.parms.length > 0) { %>

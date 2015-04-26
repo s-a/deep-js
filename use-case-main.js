@@ -11,6 +11,9 @@ var sfadsaf=";";
 
 var test = "xxx";
 
+/*
+	The Animal base class.
+*/
 var Animal=function(/* String, asd asdasd asdasd type, name */  /*>>>>>>>>>>>>>>>>*/ type  /* String */ /* Fixme : test */) {
 	var m = type + "test";
 	this.say = function(text /* String */, velocity /* Integer */) {
