@@ -9,7 +9,7 @@
 
 
 
-> Arguments:
+>> ***Arguments***:
 
 >> ***type*** ```String```
 
@@ -20,7 +20,7 @@
 
 ### ```Animal.say()```
 
-> Arguments:
+>> ***Arguments***:
 
 >> ***text*** ```String```
 
@@ -71,7 +71,7 @@ Extends [Monster](use-case-main.js.MD#monster)
 
 ### ```Cow.scream()```
 
-> Arguments:
+>> ***Arguments***:
 
 >> ***roar*** ```Object```
 
@@ -86,7 +86,7 @@ Extends [Monster](use-case-main.js.MD#monster)
 
 
 
-> Arguments:
+>> ***Arguments***:
 
 >> ***monsterType*** ```String```
 
@@ -97,7 +97,7 @@ Extends [Monster](use-case-main.js.MD#monster)
 
 ### ```Monster.say()```
 
-> Arguments:
+>> ***Arguments***:
 
 >> ***text*** ```String```
 
@@ -123,7 +123,7 @@ Extends [Monster](use-case-main.js.MD#monster)
 
 
 
-> Arguments:
+>> ***Arguments***:
 
 >> ***length*** ```Integer```
 
@@ -139,7 +139,7 @@ Extends [Monster](use-case-main.js.MD#monster)
 
 
 
-> Arguments:
+>> ***Arguments***:
 
 >> ***parm1*** ```Boolean```
 
@@ -155,7 +155,7 @@ Extends [Monster](use-case-main.js.MD#monster)
 
 
 
-> Arguments:
+>> ***Arguments***:
 
 >> ***parm1*** ```Boolean```
 
@@ -171,7 +171,7 @@ Extends [Monster](use-case-main.js.MD#monster)
 
 
 
-> Arguments:
+>> ***Arguments***:
 
 >> ***parm1*** ```Boolean```
 

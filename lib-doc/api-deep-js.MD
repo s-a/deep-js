@@ -6,12 +6,13 @@
 
 
 
-> Arguments:
+>> ***Arguments***:
 
 >> ***obj*** ```Object```
 
 >> ***depth*** ```Object```
 
+  
 
 
 
@@ -23,10 +24,11 @@
 
 
 
-> Arguments:
+>> ***Arguments***:
 
 >> ***src*** ```Object```
 
+  
 
 
 
@@ -38,10 +40,11 @@
 
 
 
-> Arguments:
+>> ***Arguments***:
 
 >> ***str*** ```Object```
 
+  
 
 
 
@@ -53,12 +56,13 @@
 
 
 
-> Arguments:
+>> ***Arguments***:
 
 >> ***methodSourceCode*** ```Object```
 
 >> ***comment*** ```Object```
 
+  
 
 
 
@@ -70,10 +74,11 @@
 
 
 
-> Arguments:
+>> ***Arguments***:
 
 >> ***methodSourceCode*** ```Object```
 
+  
 
 
 
@@ -85,12 +90,13 @@
 
 
 
-> Arguments:
+>> ***Arguments***:
 
 >> ***comments*** ```Object```
 
 >> ***position*** ```Object```
 
+  
 
 
 
@@ -102,12 +108,13 @@
 
 
 
-> Arguments:
+>> ***Arguments***:
 
 >> ***rawMethodSourceCode*** ```Object```
 
 >> ***argnames*** ```Object```
 
+  
 
 
 
@@ -119,12 +126,13 @@
 
 
 
-> Arguments:
+>> ***Arguments***:
 
 >> ***code*** ```Object```
 
 >> ***node*** ```Object```
 
+  
 
 
 
@@ -136,10 +144,11 @@
 
 
 
-> Arguments:
+>> ***Arguments***:
 
 >> ***name*** ```Object```
 
+  
 
 
 
@@ -151,10 +160,11 @@
 
 
 
-> Arguments:
+>> ***Arguments***:
 
 >> ***name*** ```Object```
 
+  
 
 
 
@@ -166,10 +176,11 @@
 
 
 
-> Arguments:
+>> ***Arguments***:
 
 >> ***name*** ```Object```
 
+  
 
 
 
@@ -181,12 +192,13 @@
 
 
 
-> Arguments:
+>> ***Arguments***:
 
 >> ***code*** ```Object```
 
 >> ***node*** ```Object```
 
+  
 
 
 
@@ -198,11 +210,11 @@
 
 
 
-> Arguments:
+>> ***Arguments***:
 
 >> ***filename*** ```Object```
 
-
+  
 
 
 
@@ -212,7 +224,7 @@
 
 ### ```Deep.log()```
 
-> Arguments:
+>> ***Arguments***:
 
 >> ***obj*** ```Object```
 
@@ -222,7 +234,7 @@
 
 ### ```Deep.findInScopes()```
 
-> Arguments:
+>> ***Arguments***:
 
 >> ***name*** ```Object```
 
@@ -240,6 +252,7 @@
 
 
 
+  
 
 
 
@@ -251,10 +264,11 @@
 
 
 
-> Arguments:
+>> ***Arguments***:
 
 >> ***node*** ```Object```
 
+  
 
 
 
@@ -265,6 +279,7 @@
 
 
 
+  
 
 
 
@@ -275,6 +290,7 @@
 
 
 
+  
 
 
 
@@ -286,10 +302,11 @@
 
 
 
-> Arguments:
+>> ***Arguments***:
 
 >> ***expression*** ```Object```
 
+  
 
 
 
@@ -301,12 +318,13 @@
 
 
 
-> Arguments:
+>> ***Arguments***:
 
 >> ***name*** ```Object```
 
 >> ***scope*** ```Object```
 
+  
 
 
 
@@ -318,10 +336,11 @@
 
 
 
-> Arguments:
+>> ***Arguments***:
 
 >> ***name*** ```Object```
 
+  
 
 
 
@@ -333,10 +352,11 @@
 
 
 
-> Arguments:
+>> ***Arguments***:
 
 >> ***iterator*** ```Object```
 
+  
 
 
 
@@ -348,10 +368,11 @@
 
 
 
-> Arguments:
+>> ***Arguments***:
 
 >> ***offset*** ```Object```
 
+  
 
 
 
@@ -363,7 +384,7 @@
 
 
 
-> Arguments:
+>> ***Arguments***:
 
 >> ***name*** ```Object```
 
@@ -371,6 +392,7 @@
 
 >> ***type*** ```Object```
 
+  
 
 
 
