@@ -1,5 +1,5 @@
 
-## ```Animal```  
+## ```Animal``` 
 
 
 > The Animal base class.
@@ -28,8 +28,7 @@
 
 
 
-## ```Cat```  Extends [Animal](use-case-main.js.MD#animal)  
-Contructor [Animal](use-case-main.js.MD#animal)
+## ```Cat``` extends [Animal](use-case-main.js.MD#animal) Contructor [Animal](use-case-main.js.MD#animal)
 
 
 
@@ -38,8 +37,7 @@ Contructor [Animal](use-case-main.js.MD#animal)
 
 
 
-## ```Dog```  Extends [Animal](use-case-main.js.MD#animal)  
-Contructor [Animal](use-case-main.js.MD#animal)
+## ```Dog``` extends [Animal](use-case-main.js.MD#animal) Contructor [Animal](use-case-main.js.MD#animal)
 
 
 
@@ -48,8 +46,7 @@ Contructor [Animal](use-case-main.js.MD#animal)
 
 
 
-## ```Cow```  Extends [Monster](use-case-main.js.MD#monster)  
-Contructor [Mutant](use-case-main.js.MD#mutant)
+## ```Cow``` extends [Monster](use-case-main.js.MD#monster) Contructor [Mutant](use-case-main.js.MD#mutant)
 
 
 
@@ -68,7 +65,7 @@ Contructor [Mutant](use-case-main.js.MD#mutant)
 
 
 
-## ```Monster```  
+## ```Monster``` 
 
 
 
@@ -92,7 +89,7 @@ Contructor [Mutant](use-case-main.js.MD#mutant)
 
 
 
-## ```Mutant```  
+## ```Mutant``` 
 
 
 
@@ -101,7 +98,7 @@ Contructor [Mutant](use-case-main.js.MD#mutant)
 
 
 
-## ```Cat.miau```  
+## ```Cat.miau``` 
 
 
 
@@ -115,7 +112,7 @@ Contructor [Mutant](use-case-main.js.MD#mutant)
 
 
 
-## ```globalScopeMehode```  
+## ```globalScopeMehode``` 
 
 
 
@@ -129,7 +126,7 @@ Contructor [Mutant](use-case-main.js.MD#mutant)
 
 
 
-## ```ScopeTest```  
+## ```ScopeTest``` 
 
 
 
@@ -143,7 +140,7 @@ Contructor [Mutant](use-case-main.js.MD#mutant)
 
 
 
-## ```TestingGlobalScope```  
+## ```TestingGlobalScope``` 
 
 
 

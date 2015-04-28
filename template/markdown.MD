@@ -1,8 +1,7 @@
 <% deep.definitions.forEach(function(definition){ %>
-## ```<%= definition.name -%>``` <% if (definition.extends) { %> <%= deep.lineSlurp %>
-		Extends [<%= definition.extends.name %>](<%= deep.outputFilename %>#<%= definition.extends.name_lower -%>) <%= deep.lineSlurp %>
-	<% } %> <% if (definition.construct) {  %> <%= deep.lineSlurp %>
-		Contructor [<%= definition.construct.name %>](<%= deep.outputFilename %>#<%= definition.construct.name_lower -%>)
+## ```<%= definition.name -%>``` <% if (definition.extends) { %><%= deep.lineSlurp %>
+		extends [<%= definition.extends.name %>](<%= deep.outputFilename %>#<%= definition.extends.name_lower -%>) <%= deep.lineSlurp %>
+	<% } %><% if (definition.construct) {  %><%= deep.lineSlurp %>Contructor [<%= definition.construct.name %>](<%= deep.outputFilename %>#<%= definition.construct.name_lower -%>)
 	<% } %>
 
 	<% if (definition.comments) { %>

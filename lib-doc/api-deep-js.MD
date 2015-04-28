@@ -1,7 +1,5 @@
 
-## ```log```
-
-
+## ```log``` 
 
 
 
@@ -17,9 +15,7 @@
 
 
 
-## ```getComments```
-
-
+## ```getComments``` 
 
 
 
@@ -33,9 +29,7 @@
 
 
 
-## ```space```
-
-
+## ```space``` 
 
 
 
@@ -49,9 +43,7 @@
 
 
 
-## ```replaceComment```
-
-
+## ```replaceComment``` 
 
 
 
@@ -67,9 +59,7 @@
 
 
 
-## ```parseComments```
-
-
+## ```parseComments``` 
 
 
 
@@ -83,9 +73,7 @@
 
 
 
-## ```getCommentNextTo```
-
-
+## ```getCommentNextTo``` 
 
 
 
@@ -101,9 +89,7 @@
 
 
 
-## ```parseMethodParms```
-
-
+## ```parseMethodParms``` 
 
 
 
@@ -119,75 +105,7 @@
 
 
 
-## ```extractMethodeParms```
-
-
-
-
-
-
->> ***Arguments***:
-
->> ***code*** ```Object```
-
->> ***node*** ```Object```
-
-  
-
-
-
-
-## ```getMethodParameter```
-
-
-
-
-
-
->> ***Arguments***:
-
->> ***name*** ```Object```
-
-  
-
-
-
-
-## ```getMethod```
-
-
-
-
-
-
->> ***Arguments***:
-
->> ***name*** ```Object```
-
-  
-
-
-
-
-## ```getProperty```
-
-
-
-
-
-
->> ***Arguments***:
-
->> ***name*** ```Object```
-
-  
-
-
-
-
-## ```extractMethodeInfos```
-
-
+## ```extractMethodeParms``` 
 
 
 
@@ -203,9 +121,65 @@
 
 
 
-## ```Deep```
+## ```getMethodParameter``` 
 
 
+
+
+>> ***Arguments***:
+
+>> ***name*** ```Object```
+
+  
+
+
+
+
+## ```getMethod``` 
+
+
+
+
+>> ***Arguments***:
+
+>> ***name*** ```Object```
+
+  
+
+
+
+
+## ```getProperty``` 
+
+
+
+
+>> ***Arguments***:
+
+>> ***name*** ```Object```
+
+  
+
+
+
+
+## ```extractMethodeInfos``` 
+
+
+
+
+>> ***Arguments***:
+
+>> ***code*** ```Object```
+
+>> ***node*** ```Object```
+
+  
+
+
+
+
+## ```Deep``` 
 
 
 
@@ -246,9 +220,7 @@
 
 
 
-## ```Deep.prototype.deepWalker```
-
-
+## ```Deep.prototype.deepWalker``` 
 
 
 
@@ -257,9 +229,7 @@
 
 
 
-## ```return```
-
-
+## ```return``` 
 
 
 
@@ -273,20 +243,7 @@
 
 
 
-## ```addFunction```
-
-
-
-
-
-  
-
-
-
-
-## ```Deep.prototype.walker```
-
-
+## ```addFunction``` 
 
 
 
@@ -295,9 +252,16 @@
 
 
 
-## ```Deep.prototype.getAssignedDeclarationNode```
+## ```Deep.prototype.walker``` 
 
 
+
+  
+
+
+
+
+## ```Deep.prototype.getAssignedDeclarationNode``` 
 
 
 
@@ -311,9 +275,7 @@
 
 
 
-## ```Deep.prototype.getDeclarationFromNode```
-
-
+## ```Deep.prototype.getDeclarationFromNode``` 
 
 
 
@@ -329,9 +291,7 @@
 
 
 
-## ```Deep.prototype.get```
-
-
+## ```Deep.prototype.get``` 
 
 
 
@@ -345,9 +305,7 @@
 
 
 
-## ```Deep.prototype.each```
-
-
+## ```Deep.prototype.each``` 
 
 
 
@@ -361,9 +319,7 @@
 
 
 
-## ```Deep.prototype.getParsedNode```
-
-
+## ```Deep.prototype.getParsedNode``` 
 
 
 
@@ -377,9 +333,7 @@
 
 
 
-## ```findInScopes```
-
-
+## ```findInScopes``` 
 
 
 
