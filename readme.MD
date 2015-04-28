@@ -7,7 +7,7 @@
 [![Development Dependencies](https://img.shields.io/david/dev/s-a/deep-js.svg)](#)
 
 ## About
-A commandline app documenting Javascript  
+A commandline app documenting Javascript code. Inspired by JS Doc I thought it would be wonderful if a tool can understand my JavaScript code. It should be possible to generate a useful API documentation without learning any blocktags and without heavy syntax specifications. It should be light weight and simple to use for small JavaScript projects.
 // work is heavy @ progress ( feel free to contribute! )
 
 
