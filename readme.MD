@@ -12,8 +12,6 @@ A commandline app documenting Javascript
 
 
 ## Todo
- - well structured markdown output
- - good readable markdown template
  - filter and order output for rendering
  - pipe multiple JavaScript files for document output
  - identify and order namespaces
@@ -32,8 +30,7 @@ A commandline app documenting Javascript
  - o, --output <Sting>  Documentation output file
 
 ## Examples
- - ```deep --file=use-case-main.js --describe=Animal,Cow --output=lib-doc/use-case-main.js.MD``` writes [/lib-doc/use-case-main.js.MD](/lib-doc/use-case-main.js.MD)
- - ```deep --file=lib/deep.js --describe=Deep --output=lib-doc/api-deep-js.MD``` writes [/lib-doc/api-deep-js.MD](/lib-doc/api-deep-js.MD)
+ - ```deep --file=use-case-main.js --describe=* --output=lib-doc/use-case-main.js.MD``` will create [/lib-doc/use-case-main.js.MD](/lib-doc/use-case-main.js.MD)
 
 ## Develpment setup
   - ```npm install -g mocha```
