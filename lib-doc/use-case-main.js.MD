@@ -153,3 +153,43 @@
 
 
 
+
+## ```Human``` 
+
+
+>  The human base class 
+
+
+
+>> ***Arguments***:
+
+>> ***type*** ```String```
+
+  
+
+
+
+
+### ```Human.speak()```
+
+>> ***Arguments***:
+
+>> ***text*** ```String```
+
+
+
+
+
+## ```Human.prototype.speak``` 
+
+
+
+
+>> ***Arguments***:
+
+>> ***text*** ```String```
+
+  
+
+
+

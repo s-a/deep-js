@@ -123,11 +123,19 @@ describe('parse javascript code', function(){
 	constructorMethode    		("Cat", "Animal");
 	constructorExists     		("Cat.miau");
 
+	constructorExists     		("Human");
+	methodeExists     			("Human", "speak");
+	nestedMethodParameterExistsAndIsTypeOf 	("Human", "speak", "text", "String");
+
+
+
 	it('should identify each method definition by name', function(){
 		deep.each(function(i,fun) {
 			should.exist(fun.name);
 		});
+		//console.log(deep.get("Human"));
 	});
+
 
 });
 

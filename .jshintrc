@@ -2,21 +2,15 @@
 
     "passfail"      : false,
     "maxerr"        : 100,
-
-
-
     "browser"       : true,
-
     "node"          : false,
     "rhino"         : false,
     "couch"         : false,
     "wsh"           : true,
-
     "jquery"        : true,
     "prototypejs"   : false,
     "mootools"      : false,
     "dojo"          : false,
-
     "predef"        : [
         "angular",
         "test",
@@ -30,13 +24,8 @@
         "module"
     ],
 
-
-
     "debug"         : false,
     "devel"         : true,
-
-
-
     "es5"           : false,
     "strict"        : false,
     "globalstrict"  : false,
@@ -64,7 +53,7 @@
     "supernew"      : false,
     "undef"         : true,
     "unused"         : true,
-
+    "maxdepth": 2 ,
 
 
     "newcap"        : true,

@@ -95,3 +95,21 @@ var ScopeTest = function  (parm1 /* Boolean */) {
 console.log(cat instanceof Cat);
 console.log(dog instanceof Dog);
 console.log(cow instanceof Cow);
+
+/*
+FIXME: Should identify JSON declaration;
+var humanTypes = {
+	male : 0,
+	female : 1
+}
+*/
+
+/* The human base class */
+var Human = function(type /* String */) {
+	this.type = type;
+	return this;
+}
+
+Human.prototype.speak = function(text /* String */) {
+	return text;
+};
