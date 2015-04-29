@@ -1,184 +1,4 @@
 
-## ```log``` 
-
-
-
-
->> ***Arguments***:
-
->> ***obj*** ```Object```
-
->> ***depth*** ```Object```
-
-  
-
-
-
-
-## ```getComments``` 
-
-
-
-
->> ***Arguments***:
-
->> ***src*** ```Object```
-
-  
-
-
-
-
-## ```space``` 
-
-
-
-
->> ***Arguments***:
-
->> ***str*** ```Object```
-
-  
-
-
-
-
-## ```replaceComment``` 
-
-
-
-
->> ***Arguments***:
-
->> ***methodSourceCode*** ```Object```
-
->> ***comment*** ```Object```
-
-  
-
-
-
-
-## ```parseComments``` 
-
-
-
-
->> ***Arguments***:
-
->> ***methodSourceCode*** ```Object```
-
-  
-
-
-
-
-## ```getCommentNextTo``` 
-
-
-
-
->> ***Arguments***:
-
->> ***comments*** ```Object```
-
->> ***position*** ```Object```
-
-  
-
-
-
-
-## ```parseMethodParms``` 
-
-
-
-
->> ***Arguments***:
-
->> ***rawMethodSourceCode*** ```Object```
-
->> ***argnames*** ```Object```
-
-  
-
-
-
-
-## ```extractMethodeParms``` 
-
-
-
-
->> ***Arguments***:
-
->> ***code*** ```Object```
-
->> ***node*** ```Object```
-
-  
-
-
-
-
-## ```getMethodParameter``` 
-
-
-
-
->> ***Arguments***:
-
->> ***name*** ```Object```
-
-  
-
-
-
-
-## ```getMethod``` 
-
-
-
-
->> ***Arguments***:
-
->> ***name*** ```Object```
-
-  
-
-
-
-
-## ```getProperty``` 
-
-
-
-
->> ***Arguments***:
-
->> ***name*** ```Object```
-
-  
-
-
-
-
-## ```extractMethodeInfos``` 
-
-
-
-
->> ***Arguments***:
-
->> ***code*** ```Object```
-
->> ***node*** ```Object```
-
-  
-
-
-
-
 ## ```Deep``` 
 
 
@@ -186,7 +6,7 @@
 
 >> ***Arguments***:
 
->> ***filename*** ```Object```
+>> ***filename*** [```Object```](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Object)
 
   
 
@@ -196,13 +16,77 @@
 ### ```Deep.parse()```
 
 
+### ```Deep.getParmApiUrl()```
+
+
+### ```Deep.setParmApiUrls()```
+
+
+### ```Deep.deepWalker()```
+
+
+### ```Deep.walker()```
+
+
+### ```Deep.getAssignedDeclarationNode()```
+
+>> ***Arguments***:
+
+>> ***expression*** [```Object```](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Object)
+
+
+
+### ```Deep.getDeclarationFromNodeEnclosed()```
+
+>> ***Arguments***:
+
+>> ***name*** [```Object```](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Object)
+
+>> ***scope*** [```Object```](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Object)
+
+
+
+### ```Deep.getDeclarationFromNode()```
+
+>> ***Arguments***:
+
+>> ***name*** [```Object```](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Object)
+
+>> ***scope*** [```Object```](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Object)
+
+
+
 ### ```Deep.log()```
 
 >> ***Arguments***:
 
->> ***obj*** ```Object```
+>> ***obj*** [```Object```](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Object)
 
->> ***depth*** ```Object```
+>> ***depth*** [```Object```](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Object)
+
+
+
+### ```Deep.get()```
+
+>> ***Arguments***:
+
+>> ***name*** [```Object```](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Object)
+
+
+
+### ```Deep.each()```
+
+>> ***Arguments***:
+
+>> ***iterator*** [```Object```](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Object)
+
+
+
+### ```Deep.getParsedNode()```
+
+>> ***Arguments***:
+
+>> ***offset*** [```Object```](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Object)
 
 
 
@@ -210,143 +94,12 @@
 
 >> ***Arguments***:
 
->> ***name*** ```Object```
+>> ***name*** [```Object```](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Object)
 
->> ***currentScope*** ```Object```
+>> ***currentScope*** [```Object```](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Object)
 
->> ***type*** ```Object```
+>> ***type*** [```Object```](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Object)
 
-
-
-
-
-## ```Deep.prototype.deepWalker``` 
-
-
-
-  
-
-
-
-
-## ```return``` 
-
-
-
-
->> ***Arguments***:
-
->> ***node*** ```Object```
-
-  
-
-
-
-
-## ```addFunction``` 
-
-
-
-  
-
-
-
-
-## ```Deep.prototype.walker``` 
-
-
-
-  
-
-
-
-
-## ```Deep.prototype.getAssignedDeclarationNode``` 
-
-
-
-
->> ***Arguments***:
-
->> ***expression*** ```Object```
-
-  
-
-
-
-
-## ```Deep.prototype.getDeclarationFromNode``` 
-
-
-
-
->> ***Arguments***:
-
->> ***name*** ```Object```
-
->> ***scope*** ```Object```
-
-  
-
-
-
-
-## ```Deep.prototype.get``` 
-
-
-
-
->> ***Arguments***:
-
->> ***name*** ```Object```
-
-  
-
-
-
-
-## ```Deep.prototype.each``` 
-
-
-
-
->> ***Arguments***:
-
->> ***iterator*** ```Object```
-
-  
-
-
-
-
-## ```Deep.prototype.getParsedNode``` 
-
-
-
-
->> ***Arguments***:
-
->> ***offset*** ```Object```
-
-  
-
-
-
-
-## ```findInScopes``` 
-
-
-
-
->> ***Arguments***:
-
->> ***name*** ```Object```
-
->> ***currentScope*** ```Object```
-
->> ***type*** ```Object```
-
-  
 
 
 

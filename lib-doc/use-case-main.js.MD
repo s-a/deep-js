@@ -28,7 +28,7 @@
 
 
 
-## ```Cat``` extends [Animal](use-case-main.js.MD#animal) Contructor [Animal](use-case-main.js.MD#animal)
+## ```Cat``` extends [Animal](use-case-main.js.MD#animal) Constructor [Animal](use-case-main.js.MD#animal)
 
 
 
@@ -37,7 +37,7 @@
 
 
 
-## ```Dog``` extends [Animal](use-case-main.js.MD#animal) Contructor [Animal](use-case-main.js.MD#animal)
+## ```Dog``` extends [Animal](use-case-main.js.MD#animal) Constructor [Animal](use-case-main.js.MD#animal)
 
 
 
@@ -46,7 +46,7 @@
 
 
 
-## ```Cow``` extends [Monster](use-case-main.js.MD#monster) Contructor [Mutant](use-case-main.js.MD#mutant)
+## ```Cow``` extends [Monster](use-case-main.js.MD#monster) Constructor [Mutant](use-case-main.js.MD#mutant)
 
 
 
