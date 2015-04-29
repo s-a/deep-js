@@ -133,7 +133,7 @@ describe('parse javascript code', function(){
 		deep.each(function(i,fun) {
 			should.exist(fun.name);
 		});
-		//console.log(deep.get("Human"));
+		//console.log(deep.get("Human").method("speak"),6);
 	});
 
 

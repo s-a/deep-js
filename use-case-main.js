@@ -16,7 +16,7 @@ var test = "xxx";
 */
 var Animal=function(/* String, asd asdasd asdasd type, name */  /*>>>>>>>>>>>>>>>>*/ type  /* String */ /* Fixme : test */) {
 	var m = type + "test";
-	this.say = function(text /* String */, velocity /* Integer */) {
+	this.say = function(text /* String */, velocity /* Number */) {
 		return "test" + m + text + velocity;
 	};
 	this.type = type;
@@ -51,7 +51,7 @@ Dog.prototype = new Animal();
 Cow.prototype = new Monster();
 
 
-Cat.miau = function(length /* Integer */) {
+Cat.miau = function(length /* Number */) {
 	for (var i = 0; i < length; i++) {
 		console.log("miau");
 	}

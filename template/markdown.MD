@@ -11,7 +11,7 @@
 	<% if (definition.parms.length > 0) { %>
 		>> ***Arguments***:
 		<% definition.parms.forEach(function(parm){ %>
-			>> ***<%= parm.name %>*** ```<%= parm.type %>```
+			>> ***<%= parm.name %>*** [```<%= parm.type %>```](<%= parm.api %>)
 		<% }) %>
 	<% } %>  
 
@@ -22,7 +22,7 @@
 			<% if (method.parms.length > 0) { %>
 				>> ***Arguments***:
 				<% method.parms.forEach(function(parm){ %>
-					>> ***<%= parm.name %>*** ```<%= parm.type %>```
+					>> ***<%= parm.name %>*** [```<%= parm.type %>```](<%= parm.api %>)
 				<% }) %>
 			<% } %>
 		<% }) %>

@@ -9,7 +9,7 @@
 
 >> ***Arguments***:
 
->> ***type*** ```String```
+>> ***type*** [```String```](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/String)
 
   
 
@@ -20,9 +20,9 @@
 
 >> ***Arguments***:
 
->> ***text*** ```String```
+>> ***text*** [```String```](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/String)
 
->> ***velocity*** ```Integer```
+>> ***velocity*** [```Number```](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Number)
 
 
 
@@ -59,7 +59,7 @@
 
 >> ***Arguments***:
 
->> ***roar*** ```Object```
+>> ***roar*** [```Object```](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Object)
 
 
 
@@ -72,7 +72,7 @@
 
 >> ***Arguments***:
 
->> ***monsterType*** ```String```
+>> ***monsterType*** [```String```](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/String)
 
   
 
@@ -83,7 +83,7 @@
 
 >> ***Arguments***:
 
->> ***text*** ```String```
+>> ***text*** [```String```](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/String)
 
 
 
@@ -105,7 +105,7 @@
 
 >> ***Arguments***:
 
->> ***length*** ```Integer```
+>> ***length*** [```Number```](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Number)
 
   
 
@@ -119,7 +119,7 @@
 
 >> ***Arguments***:
 
->> ***parm1*** ```Boolean```
+>> ***parm1*** [```Boolean```](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
 
   
 
@@ -133,7 +133,7 @@
 
 >> ***Arguments***:
 
->> ***parm1*** ```Boolean```
+>> ***parm1*** [```Boolean```](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
 
   
 
@@ -147,7 +147,7 @@
 
 >> ***Arguments***:
 
->> ***parm1*** ```Boolean```
+>> ***parm1*** [```Boolean```](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
 
   
 
@@ -163,7 +163,7 @@
 
 >> ***Arguments***:
 
->> ***type*** ```String```
+>> ***type*** [```String```](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/String)
 
   
 
@@ -174,7 +174,7 @@
 
 >> ***Arguments***:
 
->> ***text*** ```String```
+>> ***text*** [```String```](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/String)
 
 
 
@@ -187,7 +187,7 @@
 
 >> ***Arguments***:
 
->> ***text*** ```String```
+>> ***text*** [```String```](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/String)
 
   
 
