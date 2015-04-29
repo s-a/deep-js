@@ -106,7 +106,7 @@ describe('parse javascript code', function(){
 	parameterExistsAndIsTypeOf  			("Animal", "type", "String");
 	methodeExists     						("Animal", "say");
 	nestedMethodParameterExistsAndIsTypeOf 	("Animal", "say", "text", "String");
-	nestedMethodParameterExistsAndIsTypeOf 	("Animal", "say", "velocity", "Integer");
+	nestedMethodParameterExistsAndIsTypeOf 	("Animal", "say", "velocity", "Number");
 
 	constructorExists			("Dog");
 	extendsInstance				("Dog", "Animal");
