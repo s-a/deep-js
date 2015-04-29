@@ -12,10 +12,9 @@ A commandline app documenting Javascript code. Inspired by JS Doc I thought it w
 
 
 ## Todo
- - filter and order output for rendering
  - pipe multiple JavaScript files for document output
  - identify and order namespaces
- - resolve this within functions
+ - resolve ```this``` within functions
 
 ## Installation
 
